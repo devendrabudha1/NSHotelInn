@@ -721,38 +721,44 @@ p.bookModal{
   margin-left: 20%;
 }
 
-.blink{
-  font-size: 35px;
-  text-align: center;
-  color: crimson;
-  box-shadow: 0 4px 8px 0px;
-}
-blink {
-  -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
-  animation: 1s linear infinite condemned_blink_effect;
-}
+/* Reference Page */
 
-/* for Safari 4.0 - 8.0 */
-@-webkit-keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
+p.refContent{
+  margin-bottom: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  font-family: 'playfair Display';
 }
-
-@keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
+p.refTitle{
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: 'playfair Display';
+  margin-top: 30px;
+}
+.imageRef{
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+  margin-bottom: 30px;
+}
+.imageRef img{
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+.linkRef{
+  float: left;
+  line-height: 7.6;
+  font-size: 25px;
+  margin-left: 10%;
+}
+.linkRef p a{
+  text-decoration: none;
+  color: mediumblue;
+  font-family: 'playfair Display';
 }
