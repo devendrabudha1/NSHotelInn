@@ -31,6 +31,7 @@
               <li><a href="about.html">About</a></li>
               <li><a href="career.html">Career</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <li><a href="reference.html">Reference</a></li>
             </ul>
           </div>
         </div>
@@ -54,9 +55,45 @@
                   <h4 class="modal-title">Welcome to NS Hotel Online Booking Service</h4>
                 </div>
                 <div class="modal-body">
-                  <form class="" action="index.html" method="post">
+                  <form class="form-horizontal" action="index.html" method="post">
+                    <div class="container form-group">
+                      <div class="jumbotron bookModal">
+                           <p class="bookTitle" style="font-size: 24px;font-weight: bold;font-family: cursive;margin-bottom: 0px;margin-top: -45px;">Book Our Room</p>
+                           <hr>
+                           <label class="control-label col-sm-2" for="email">Name:</label>
+                           <div class="col-sm-10" style="margin-bottom: 10px;">
+                              <input type="text" class="form-control" id="name" placeholder="Enter Name" name="email">
+                            </div>
+                            <label class="control-label col-sm-2" for="email">Email:</label>
+                            <div class="col-sm-10" style="margin-bottom: 10px;">
+                               <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                             </div>
+                             <label class="control-label col-sm-4" for="email" style="margin-left: -69px">Room Type:</label>
+                             <select class="form-control" id="roomtype" style="margin-bottom: 10px;">
+                              <option>Select Type</option>
+                              <option>Suite Room</option>
+                              <option>Family Room</option>
+                              <option>Deluxe Room</option>
+                              <option>Classic Room</option>
+                              <option>Superior Room</option>
+                              <option>Luxury Room</option>
+                            </select>
+                            <label class="control-label col-sm-4" for="email" style=";margin-left: -70px;">No. of Guests:</label>
+                            <div class="col-sm-10" style="margin-bottom: 10px;">
+                               <input type="number" class="form-control" id="guestNum" name="email">
+                             </div>
+                             <label class="control-label col-sm-4" for="email" style=";margin-left: -70px;">Arrival Date:</label>
+                             <div class='col-sm-10' id='datetimepicker1' style="margin-bottom: 10px;">
+                                 <input type='date' class="form-control" />
+                             </div>
+                             <label class="control-label col-sm-4" for="email" style=";margin-left: -70px;">Departure Date:</label>
+                             <div class='col-sm-10' id='datetimepicker1' style="margin-bottom: 10px;">
+                                 <input type='date' class="form-control" />
+                             </div>
+                             <button type="button" class="btn btn-primary" style="width: 25%;float: right;">Book Now</button>
 
-                    Check-In Date:<input type="date" name="" value="" placeholder="Check-In Date">
+                    </div>
+
                   </form>
                 </div>
                 <div class="modal-footer">
@@ -227,19 +264,18 @@
           <div class="part1">
             <div class="title">
               <h2 class="titleStyle">Useful Links</h2>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 50px;color: rgba(255, 255, 255, 0.7);">Rooms</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">Restaurent</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">Facilities</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">Gallery</li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="rooms.html">Rooms</a></li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="restaurant.html">Restaurent</a></li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="gallery.html">Gallery</a></li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="career.html">Career</a></li>
             </div>
           </div>
           <div class="part1">
             <div class="title">
               <h2 class="titleStyle">Privacy</h2>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 50px;color: rgba(255, 255, 255, 0.7);">Career</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">About Us</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">Contact Us</li>
-              <li href="" style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);">Services</li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="about.html">About Us</a></li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="contact.html">Contact Us</a></li>
+              <li style="font-size: 17px;list-style-type: none;margin-top: 20px;color: rgba(255, 255, 255, 0.7);"><a href="reference.html">Reference</a></li>
             </div>
           </div>
           <div class="part2">
@@ -252,7 +288,7 @@
           </div>
         </div>
         <div class="copyright">
-          <p>Copyright ©2019 All rights reserved by | NS Hotel Inn</p>
+          <p>Copyright ©2019 All rights reserved by | <a href="contact.html">NS Hotel Inn</a></p>
         </div>
       </div>
 
